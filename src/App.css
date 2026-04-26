@@ -28,6 +28,8 @@ a {
   margin: 0 auto;
 }
 
+/* HERO */
+
 .hero {
   position: relative;
   min-height: 100vh;
@@ -170,6 +172,8 @@ h1 span {
   text-transform: uppercase;
 }
 
+/* CARDS */
+
 .hero-card,
 .step,
 .challenge-card,
@@ -213,6 +217,8 @@ h1 span {
   color: #dffdf8;
   font-weight: 850;
 }
+
+/* SECTIONS */
 
 .section {
   padding: 88px 0;
@@ -269,6 +275,8 @@ h1 span {
   line-height: 1.5;
 }
 
+/* SAMPLE CHALLENGE */
+
 .sample-section {
   background:
     radial-gradient(circle at top right, rgba(0, 255, 213, 0.13), transparent 28%),
@@ -303,6 +311,8 @@ h1 span {
   letter-spacing: -0.06em;
 }
 
+/* KNGS SECTION */
+
 .kngs-section {
   background: #050706;
 }
@@ -310,6 +320,8 @@ h1 span {
 .skool-button {
   margin-top: 22px;
 }
+
+/* FINAL FORM SECTION */
 
 .final-section {
   background:
@@ -372,6 +384,8 @@ h1 span {
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
+
+/* RESPONSIVE */
 
 @media (max-width: 900px) {
   .hero-inner,
