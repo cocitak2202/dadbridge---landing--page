@@ -6,6 +6,10 @@
     <title>You're In | DadBridge</title>
 
     <style>
+      * {
+        box-sizing: border-box;
+      }
+
       body {
         margin: 0;
         min-height: 100vh;
@@ -21,10 +25,10 @@
       }
 
       .card {
-        max-width: 720px;
+        max-width: 740px;
         width: 100%;
         text-align: center;
-        padding: 44px 28px;
+        padding: 46px 30px;
         border-radius: 34px;
         border: 1px solid rgba(255, 255, 255, 0.14);
         background: rgba(255, 255, 255, 0.065);
@@ -43,10 +47,11 @@
       h1 {
         margin: 0 0 18px;
         color: #1effd6;
-        font-size: clamp(42px, 7vw, 76px);
+        font-size: clamp(44px, 7vw, 76px);
         line-height: 0.9;
         letter-spacing: -0.07em;
         text-transform: uppercase;
+        text-shadow: 0 0 32px rgba(0, 255, 213, 0.24);
       }
 
       p {
@@ -54,7 +59,7 @@
         font-size: 19px;
         line-height: 1.55;
         margin: 0 auto 28px;
-        max-width: 560px;
+        max-width: 580px;
       }
 
       a {
@@ -73,6 +78,10 @@
         box-shadow: 0 0 34px rgba(229, 255, 0, 0.24);
       }
 
+      a:hover {
+        transform: translateY(-2px);
+      }
+
       .small {
         margin-top: 24px;
         color: #e5ff00;
@@ -80,6 +89,16 @@
         font-weight: 900;
         text-transform: uppercase;
         line-height: 1.4;
+      }
+
+      @media (max-width: 560px) {
+        .card {
+          padding: 34px 22px;
+        }
+
+        a {
+          width: 100%;
+        }
       }
     </style>
   </head>
@@ -95,12 +114,17 @@
         Circle and introduce yourself inside the community.
       </p>
 
-      <a href="https://www.skool.com/kngs-inner-circle-3229" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.skool.com/kngs-inner-circle-3229"
+        target="_blank"
+        rel="noreferrer"
+      >
         Join KNGS Inner Circle
       </a>
 
       <div class="small">
-        Start with your kid’s age, sport/interests, and one thing you want to be more intentional about.
+        Start with your kid’s age, sport/interests, and one thing you want to be
+        more intentional about.
       </div>
     </main>
   </body>
