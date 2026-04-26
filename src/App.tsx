@@ -1,6 +1,38 @@
 import "./App.css";
 
+const encode = (data: Record<string, string>) => {
+  return Object.keys(data)
+    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+};
+
 export default function App() {
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+
+    const form = event.currentTarget;
+    const formData = new FormData(form);
+
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({
+        "form-name": "dadbridge-waitlist",
+        name: String(formData.get("name") || ""),
+        email: String(formData.get("email") || ""),
+        phone: String(formData.get("phone") || ""),
+        why: String(formData.get("why") || ""),
+      }),
+    })
+      .then(() => {
+        window.location.href = "/thank-you.html";
+      })
+      .catch((error) => {
+        console.error("Form submission error:", error);
+        alert("Something went wrong. Please try again.");
+      });
+  };
+
   return (
     <main className="page">
       <section className="hero" id="top">
@@ -135,14 +167,12 @@ export default function App() {
             name="dadbridge-waitlist"
             method="POST"
             data-netlify="true"
-            action="/thank-you.html"
+            netlify-honeypot="bot-field"
             className="waitlist-form"
+            onSubmit={handleSubmit}
           >
-            <input
-              type="hidden"
-              name="form-name"
-              value="dadbridge-waitlist"
-            />
+            <input type="hidden" name="form-name" value="dadbridge-waitlist" />
+            <input type="hidden" name="bot-field" />
 
             <input type="text" name="name" placeholder="Your name" required />
 
