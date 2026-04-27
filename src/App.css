@@ -163,7 +163,7 @@ h1 span {
   background: rgba(255, 255, 255, 0.07);
 }
 
-.limited-note {
+.guided-note {
   margin-top: 14px;
   color: #e5ff00;
   font-size: 14px;
@@ -242,10 +242,10 @@ h1 span {
 .final-card p {
   color: #cfd7d1;
   font-size: 19px;
-  line-height: 1.5;
+  line-height: 1.55;
 }
 
-/* COMBINED WHO + HOW SECTION */
+/* HOW IT WORKS */
 
 .fit-section {
   background:
@@ -266,6 +266,7 @@ h1 span {
 
 .fit-copy h2 {
   margin-bottom: 22px;
+  max-width: 620px;
 }
 
 .flow-card {
@@ -304,6 +305,15 @@ h1 span {
   color: #cfd7d1;
   font-size: 17px;
   line-height: 1.4;
+}
+
+.flow-step small {
+  display: inline-block;
+  margin-top: 10px;
+  color: #e5ff00;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1.35;
 }
 
 /* SAMPLE CHALLENGE */
@@ -480,7 +490,7 @@ h1 span {
     width: 100%;
   }
 
-  .limited-note {
+  .guided-note {
     font-size: 12px;
   }
 
