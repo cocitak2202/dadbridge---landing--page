@@ -1,3 +1,4 @@
+import type { FormEvent } from "react";
 import "./App.css";
 
 const encode = (data: Record<string, string>) => {
@@ -7,7 +8,7 @@ const encode = (data: Record<string, string>) => {
 };
 
 export default function App() {
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     const form = event.currentTarget;
@@ -51,7 +52,7 @@ export default function App() {
 
             <p className="subhead">
               Weekly father-child missions for busy dads who want stronger
-              connection without overcomplicating life.
+              connection without adding more pressure to the calendar.
             </p>
 
             <div className="hero-actions">
@@ -64,18 +65,18 @@ export default function App() {
             </div>
 
             <p className="guided-note">
-              One mission. One moment. One stronger bond.
+              One simple mission each week. Do it. Share what happened.
             </p>
           </div>
 
           <div className="hero-card">
-            <p className="card-kicker">Built around one belief:</p>
-            <h2>Small moments compound.</h2>
+            <p className="card-kicker">Built for dads who want:</p>
+            <h2>More presence. Better conversations. Real memories.</h2>
 
             <div className="mini-points">
               <span>10-minute missions</span>
-              <span>Better questions</span>
-              <span>Real memories</span>
+              <span>Simple prompts</span>
+              <span>Real-life connection</span>
             </div>
           </div>
         </div>
@@ -85,10 +86,10 @@ export default function App() {
         <div className="container fit-grid">
           <div className="fit-copy">
             <p className="eyebrow">Your weekly path</p>
-            <h2>Join. Do the mission. Share the win.</h2>
+            <h2>Join the group. Do the mission. Share the result.</h2>
             <p className="simple-text">
-              A simple weekly rhythm to help dads create more intentional
-              moments with their kids.
+              DadBridge gives dads a simple rhythm for turning good intentions
+              into real moments with their kids.
             </p>
           </div>
 
@@ -96,16 +97,16 @@ export default function App() {
             <div className="flow-step">
               <span>01</span>
               <div>
-                <h3>Join the group</h3>
-                <p>Step into KNGS Inner Circle.</p>
+                <h3>Join KNGS Inner Circle</h3>
+                <p>Step into the private Founding Dads group.</p>
               </div>
             </div>
 
             <div className="flow-step">
               <span>02</span>
               <div>
-                <h3>Do the mission</h3>
-                <p>Complete one simple DadBridge challenge.</p>
+                <h3>Do the weekly mission</h3>
+                <p>Complete one simple DadBridge challenge that fits real life.</p>
               </div>
             </div>
 
@@ -113,7 +114,7 @@ export default function App() {
               <span>03</span>
               <div>
                 <h3>Share what happened</h3>
-                <p>Post the win, lesson, or honest reality.</p>
+                <p>Post the win, lesson, awkward moment, or honest feedback.</p>
               </div>
             </div>
           </div>
@@ -123,10 +124,11 @@ export default function App() {
       <section className="section sample-section">
         <div className="container sample-grid">
           <div>
-            <p className="eyebrow">Sample challenge</p>
+            <p className="eyebrow">Sample mission</p>
             <h2>The 10-Minute Walk</h2>
             <p className="simple-text">
-              No phone. No lecture. Just walk and ask one better question.
+              Take a short walk with your child. No phone. No lecture. Just ask
+              one better question.
             </p>
           </div>
 
@@ -161,9 +163,10 @@ export default function App() {
       <section className="section final-section" id="waitlist">
         <div className="container final-card">
           <p className="eyebrow">First 25 Founding Dads</p>
-          <h2>Help shape the first version.</h2>
+          <h2>Help build the first version.</h2>
           <p>
-            Join the first group and get your starting DadBridge mission.
+            Join the first group, get your starting mission, and help shape what
+            DadBridge becomes.
           </p>
 
           <form
@@ -200,7 +203,7 @@ export default function App() {
           </form>
 
           <p className="bottom-note">
-            No perfect-dad pressure. Just small moments that compound.
+            No perfect-dad pressure. Just one intentional step at a time.
           </p>
         </div>
       </section>
