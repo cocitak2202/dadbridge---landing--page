@@ -65,8 +65,9 @@ export default function App() {
               </a>
             </div>
 
-            <p className="limited-note">
-              Opening first to 25 dads who want to help shape the first version.
+            <p className="guided-note">
+              Start with one simple mission. No overthinking. No perfect-dad
+              pressure.
             </p>
           </div>
 
@@ -86,11 +87,12 @@ export default function App() {
       <section className="section fit-section" id="how-it-works">
         <div className="container fit-grid">
           <div className="fit-copy">
-            <p className="eyebrow">Who it’s for + how it works</p>
-            <h2>For the dad who’s here, but wants to be more present.</h2>
+            <p className="eyebrow">Your weekly path</p>
+            <h2>Join. Try the mission. Share what happened.</h2>
             <p className="simple-text">
-              DadBridge turns good intentions into simple weekly reps — small
-              moments that help build trust, confidence, and real connection.
+              DadBridge gives busy dads a clear weekly rhythm: get inside the
+              community, complete one simple connection challenge, then share
+              the win, lesson, or honest reality with other founding dads.
             </p>
           </div>
 
@@ -98,24 +100,33 @@ export default function App() {
             <div className="flow-step">
               <span>01</span>
               <div>
-                <h3>Get the mission</h3>
-                <p>One simple weekly challenge.</p>
+                <h3>Join the group</h3>
+                <p>
+                  Step into KNGS Inner Circle as one of the first 25 Founding
+                  Dads.
+                </p>
               </div>
             </div>
 
             <div className="flow-step">
               <span>02</span>
               <div>
-                <h3>Create the moment</h3>
-                <p>Do it with your child in real life.</p>
+                <h3>Do the weekly mission</h3>
+                <p>
+                  Get one simple DadBridge challenge you can actually do that
+                  week.
+                </p>
               </div>
             </div>
 
             <div className="flow-step">
               <span>03</span>
               <div>
-                <h3>Build the bridge</h3>
-                <p>Turn small reps into trust.</p>
+                <h3>Share the result</h3>
+                <p>
+                  Post what worked, what felt awkward, and what you learned from
+                  the moment.
+                </p>
               </div>
             </div>
           </div>
@@ -167,8 +178,8 @@ export default function App() {
           <p className="eyebrow">First 25 Founding Dads</p>
           <h2>Help shape the first version.</h2>
           <p>
-            Join the waitlist and get early access to the first DadBridge
-            challenge and KNGS Inner Circle launch details.
+            Join the first group, get your starting mission, and help shape a
+            weekly system dads can actually follow.
           </p>
 
           <form
