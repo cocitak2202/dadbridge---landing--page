@@ -71,8 +71,8 @@ export default function App() {
           </div>
 
           <div className="hero-card">
-            <p className="card-kicker">This is for the dad who says:</p>
-            <h2>“I’m here… but I want to be more present.”</h2>
+            <p className="card-kicker">Built around one belief:</p>
+            <h2>Small moments compound.</h2>
 
             <div className="mini-points">
               <span>10-minute missions</span>
@@ -83,30 +83,40 @@ export default function App() {
         </div>
       </section>
 
-      <section className="section" id="how-it-works">
-        <div className="container">
-          <div className="section-head">
-            <p className="eyebrow">How it works</p>
-            <h2>Small moments. Big impact.</h2>
+      <section className="section fit-section" id="how-it-works">
+        <div className="container fit-grid">
+          <div className="fit-copy">
+            <p className="eyebrow">Who it’s for + how it works</p>
+            <h2>For the dad who’s here, but wants to be more present.</h2>
+            <p className="simple-text">
+              DadBridge turns good intentions into simple weekly reps — small
+              moments that help build trust, confidence, and real connection.
+            </p>
           </div>
 
-          <div className="steps">
-            <div className="step">
+          <div className="flow-card">
+            <div className="flow-step">
               <span>01</span>
-              <h3>Get the mission</h3>
-              <p>One simple weekly challenge.</p>
+              <div>
+                <h3>Get the mission</h3>
+                <p>One simple weekly challenge.</p>
+              </div>
             </div>
 
-            <div className="step">
+            <div className="flow-step">
               <span>02</span>
-              <h3>Create the moment</h3>
-              <p>Do it with your child in real life.</p>
+              <div>
+                <h3>Create the moment</h3>
+                <p>Do it with your child in real life.</p>
+              </div>
             </div>
 
-            <div className="step">
+            <div className="flow-step">
               <span>03</span>
-              <h3>Build the bridge</h3>
-              <p>Turn small reps into trust.</p>
+              <div>
+                <h3>Build the bridge</h3>
+                <p>Turn small reps into trust.</p>
+              </div>
             </div>
           </div>
         </div>
