@@ -50,8 +50,10 @@ export default function App() {
             </h1>
 
             <p className="subhead">
-              Simple weekly father-child challenges for busy dads who want
-              stronger connection, better conversations, and real memories.
+              A simple weekly father-child challenge system inside KNGS Inner
+              Circle — built for busy dads, coaches, and mentors who want
+              stronger connection, better conversations, and more intentional
+              moments with their kids.
             </p>
 
             <div className="hero-actions">
@@ -129,28 +131,24 @@ export default function App() {
       </section>
 
       <section className="section kngs-section">
-        <div className="container split">
-          <div>
-            <p className="eyebrow">Where this lives</p>
-            <h2>KNGS Inner Circle</h2>
-          </div>
+        <div className="container kngs-card">
+          <p className="eyebrow">Where this lives</p>
+          <h2>KNGS Inner Circle</h2>
 
-          <div>
-            <p className="simple-text">
-              A private community for dads, coaches, and mentors building
-              stronger kids through leadership, connection, confidence,
-              discipline, faith, and youth sports.
-            </p>
+          <p className="kngs-text">
+            A private community for dads, coaches, and mentors building stronger
+            kids through leadership, connection, confidence, discipline, faith,
+            youth sports, and weekly DadBridge challenges.
+          </p>
 
-            <a
-              className="btn btn-secondary skool-button"
-              href="https://www.skool.com/kngs-inner-circle-3229"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Visit KNGS Inner Circle
-            </a>
-          </div>
+          <a
+            className="btn btn-secondary skool-button"
+            href="https://www.skool.com/kngs-inner-circle-3229"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Visit KNGS Inner Circle
+          </a>
         </div>
       </section>
 
