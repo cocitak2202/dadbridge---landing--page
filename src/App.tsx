@@ -50,10 +50,8 @@ export default function App() {
             </h1>
 
             <p className="subhead">
-              A simple weekly father-child challenge system inside KNGS Inner
-              Circle — built for busy dads, coaches, and mentors who want
-              stronger connection, better conversations, and more intentional
-              moments with their kids.
+              Weekly father-child missions for busy dads who want stronger
+              connection without overcomplicating life.
             </p>
 
             <div className="hero-actions">
@@ -66,8 +64,7 @@ export default function App() {
             </div>
 
             <p className="guided-note">
-              Start with one simple mission. No overthinking. No perfect-dad
-              pressure.
+              One mission. One moment. One stronger bond.
             </p>
           </div>
 
@@ -78,7 +75,7 @@ export default function App() {
             <div className="mini-points">
               <span>10-minute missions</span>
               <span>Better questions</span>
-              <span>More intentional moments</span>
+              <span>Real memories</span>
             </div>
           </div>
         </div>
@@ -88,11 +85,10 @@ export default function App() {
         <div className="container fit-grid">
           <div className="fit-copy">
             <p className="eyebrow">Your weekly path</p>
-            <h2>Join. Try the mission. Share what happened.</h2>
+            <h2>Join. Do the mission. Share the win.</h2>
             <p className="simple-text">
-              DadBridge gives busy dads a clear weekly rhythm: get inside the
-              community, complete one simple connection challenge, then share
-              the win, lesson, or honest reality with other founding dads.
+              A simple weekly rhythm to help dads create more intentional
+              moments with their kids.
             </p>
           </div>
 
@@ -101,32 +97,23 @@ export default function App() {
               <span>01</span>
               <div>
                 <h3>Join the group</h3>
-                <p>
-                  Step into KNGS Inner Circle as one of the first 25 Founding
-                  Dads.
-                </p>
+                <p>Step into KNGS Inner Circle.</p>
               </div>
             </div>
 
             <div className="flow-step">
               <span>02</span>
               <div>
-                <h3>Do the weekly mission</h3>
-                <p>
-                  Get one simple DadBridge challenge you can actually do that
-                  week.
-                </p>
+                <h3>Do the mission</h3>
+                <p>Complete one simple DadBridge challenge.</p>
               </div>
             </div>
 
             <div className="flow-step">
               <span>03</span>
               <div>
-                <h3>Share the result</h3>
-                <p>
-                  Post what worked, what felt awkward, and what you learned from
-                  the moment.
-                </p>
+                <h3>Share what happened</h3>
+                <p>Post the win, lesson, or honest reality.</p>
               </div>
             </div>
           </div>
@@ -139,14 +126,13 @@ export default function App() {
             <p className="eyebrow">Sample challenge</p>
             <h2>The 10-Minute Walk</h2>
             <p className="simple-text">
-              No phone. No fixing. No lecture. Just walk and ask one better
-              question.
+              No phone. No lecture. Just walk and ask one better question.
             </p>
           </div>
 
           <div className="challenge-card">
             <p>Ask this:</p>
-            <h3>“What’s something you wish I understood better about you?”</h3>
+            <h3>“What do you wish I understood better about you?”</h3>
           </div>
         </div>
       </section>
@@ -157,9 +143,8 @@ export default function App() {
           <h2>KNGS Inner Circle</h2>
 
           <p className="kngs-text">
-            A private community for dads, coaches, and mentors building stronger
-            kids through leadership, connection, confidence, discipline, faith,
-            youth sports, and weekly DadBridge challenges.
+            A private community for dads, coaches, and mentors raising stronger
+            kids through leadership, faith, youth sports, and connection.
           </p>
 
           <a
@@ -178,8 +163,7 @@ export default function App() {
           <p className="eyebrow">First 25 Founding Dads</p>
           <h2>Help shape the first version.</h2>
           <p>
-            Join the first group, get your starting mission, and help shape a
-            weekly system dads can actually follow.
+            Join the first group and get your starting DadBridge mission.
           </p>
 
           <form
@@ -216,8 +200,7 @@ export default function App() {
           </form>
 
           <p className="bottom-note">
-            This is not about being a perfect dad. It’s about building small
-            moments that compound.
+            No perfect-dad pressure. Just small moments that compound.
           </p>
         </div>
       </section>
