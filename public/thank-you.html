@@ -4,12 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>You're In | DadBridge</title>
-
     <style>
       * {
         box-sizing: border-box;
       }
-
       body {
         margin: 0;
         min-height: 100vh;
@@ -23,7 +21,6 @@
         color: #f7f7ef;
         padding: 24px;
       }
-
       .card {
         max-width: 740px;
         width: 100%;
@@ -34,7 +31,6 @@
         background: rgba(255, 255, 255, 0.065);
         box-shadow: 0 26px 80px rgba(0, 0, 0, 0.35);
       }
-
       .eyebrow {
         color: #e5ff00;
         font-size: 13px;
@@ -43,7 +39,6 @@
         text-transform: uppercase;
         margin-bottom: 16px;
       }
-
       h1 {
         margin: 0 0 18px;
         color: #1effd6;
@@ -53,7 +48,6 @@
         text-transform: uppercase;
         text-shadow: 0 0 32px rgba(0, 255, 213, 0.24);
       }
-
       p {
         color: #d7ddd8;
         font-size: 19px;
@@ -61,73 +55,123 @@
         margin: 0 auto 28px;
         max-width: 580px;
       }
-
-      a {
+      .steps {
+        display: grid;
+        gap: 14px;
+        margin: 0 auto 32px;
+        max-width: 520px;
+        text-align: left;
+      }
+      .step {
+        display: flex;
+        gap: 16px;
+        align-items: flex-start;
+        background: rgba(0, 255, 213, 0.07);
+        border-radius: 16px;
+        padding: 16px 18px;
+      }
+      .step-num {
+        color: #1effd6;
+        font-size: 18px;
+        font-weight: 950;
+        min-width: 28px;
+        padding-top: 2px;
+      }
+      .step-text {
+        color: #d7ddd8;
+        font-size: 16px;
+        line-height: 1.45;
+        margin: 0;
+      }
+      .step-text strong {
+        color: #fff;
+        display: block;
+        margin-bottom: 2px;
+      }
+      .back-link {
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        min-height: 58px;
-        padding: 0 28px;
+        min-height: 52px;
+        padding: 0 24px;
         border-radius: 16px;
-        background: #e5ff00;
-        color: #050706;
-        font-weight: 950;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        background: rgba(255, 255, 255, 0.07);
+        color: #f7f7ef;
+        font-weight: 900;
         text-transform: uppercase;
         letter-spacing: 0.02em;
         text-decoration: none;
-        box-shadow: 0 0 34px rgba(229, 255, 0, 0.24);
+        font-size: 14px;
+        transition: 0.2s ease;
       }
-
-      a:hover {
+      .back-link:hover {
         transform: translateY(-2px);
       }
-
       .small {
         margin-top: 24px;
         color: #e5ff00;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 900;
         text-transform: uppercase;
-        line-height: 1.4;
+        letter-spacing: 0.04em;
+        line-height: 1.5;
       }
-
       @media (max-width: 560px) {
         .card {
           padding: 34px 22px;
         }
-
-        a {
+        .back-link {
           width: 100%;
         }
       }
     </style>
   </head>
-
   <body>
     <main class="card">
-      <div class="eyebrow">You’re on the list</div>
-
-      <h1>Welcome, Founding Dad.</h1>
-
+      <div class="eyebrow">Founding Dad Spot Claimed</div>
+      <h1>You're In.</h1>
       <p>
-        You’re on the DadBridge Founding Dads list. Next step: join KNGS Inner
-        Circle and introduce yourself inside the community.
+        Your spot is locked. Here's what happens next:
       </p>
 
-      <a
-        href="https://www.skool.com/kngs-inner-circle-3229"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Join KNGS Inner Circle
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <p class="step-text">
+            <strong>Check your email</strong>
+            Kyle will send you a personal invite to KNGS Inner Circle within 24 hours. That invite gets you in free — no payment required.
+          </p>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <p class="step-text">
+            <strong>Accept the invite</strong>
+            Click the link in your email to join the private community. Your Founding Dad access is locked in for life.
+          </p>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <p class="step-text">
+            <strong>Introduce yourself</strong>
+            Drop your name, your kid's sport, and one thing you want to be more intentional about as a dad.
+          </p>
+        </div>
+        <div class="step">
+          <div class="step-num">04</div>
+          <p class="step-text">
+            <strong>Download Fuel the King</strong>
+            Your free youth athlete nutrition playbook will be waiting for you inside the Classroom tab.
+          </p>
+        </div>
+      </div>
+
+      <a class="back-link" href="https://dadbridge.netlify.app">
+        Back to DadBridge
       </a>
 
-      <a class="secondary-link" href="https://dadbridge.netlify.app">
-  Back to DadBridge
-</a>
       <div class="small">
-        Start with your kid’s age, sport/interests, and one thing you want to be
-        more intentional about.
+        Standards start now. 👑
       </div>
     </main>
   </body>
