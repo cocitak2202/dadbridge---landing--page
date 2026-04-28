@@ -372,6 +372,15 @@ h1 span {
   align-items: center;
   margin-top: 2rem;
 }
+
+@media (max-width: 768px) {
+  .ebook-inner {
+    grid-template-columns: 1fr;
+  }
+  .ebook-cover {
+    display: none;
+  }
+}
 .ebook-copy h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
