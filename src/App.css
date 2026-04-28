@@ -372,15 +372,6 @@ h1 span {
   align-items: center;
   margin-top: 2rem;
 }
-
-@media (max-width: 768px) {
-  .ebook-inner {
-    grid-template-columns: 1fr;
-  }
-  .ebook-cover {
-    display: none;
-  }
-}
 .ebook-copy h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -413,6 +404,8 @@ h1 span {
   border-radius: 8px;
   padding: 2.5rem 2rem;
   width: 240px;
+  max-width: 100%;
+  overflow: hidden;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
   line-height: 1;
 }
@@ -426,11 +419,12 @@ h1 span {
 .ebook-strong,
 .ebook-fast,
 .ebook-hard {
-  font-size: 2rem;
+  font-size: clamp(1.2rem, 5vw, 2rem);
   font-weight: 900;
   color: #fff;
   margin: 0;
   line-height: 1.1;
+  word-break: break-word;
 }
 .c-teal  { color: #00d4c8; }
 .c-yellow { color: #f5c518; }
