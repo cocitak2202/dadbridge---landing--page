@@ -139,7 +139,7 @@ export default function App() {
           <p className="eyebrow">Where this lives</p>
           <h2>KNGS Inner Circle</h2>
           <p className="kngs-text">
-            A private community built for dads who coach, compete, and lead at home.
+            A private community built for dads who coach, lead at home, and refuse to miss what matters.
             Daily missions. Weekly father-child challenges. Youth athlete performance tips.
             Dad leadership lessons. Monthly live workshops. Everything you need to show up
             better for your kid — in one place.
