@@ -419,12 +419,19 @@ h1 span {
 .ebook-strong,
 .ebook-fast,
 .ebook-hard {
-  font-size: clamp(1.2rem, 5vw, 2rem);
+  font-size: 1.6rem;
   font-weight: 900;
   color: #fff;
   margin: 0;
   line-height: 1.1;
   word-break: break-word;
+}
+@media (max-width: 560px) {
+  .ebook-strong,
+  .ebook-fast,
+  .ebook-hard {
+    font-size: 1.1rem;
+  }
 }
 .c-teal  { color: #00d4c8; }
 .c-yellow { color: #f5c518; }
